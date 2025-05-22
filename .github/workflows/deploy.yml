@@ -42,7 +42,7 @@ jobs:
     # Deploy to the github-pages environment
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://momolly1024.github.io/cs-master-note/
 
     runs-on: ubuntu-latest
     steps:
