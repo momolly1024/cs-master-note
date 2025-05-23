@@ -8,7 +8,7 @@ after update/edit
 git add .
 git commit -m 'xxx'
 git push
-cmd /C "set "GIT_USER=momolly1024" && npm run deploy"
+cmd /C "set "GIT_USER=momolly1024" && yarn deploy"
 ```
 
 ## PAGES
